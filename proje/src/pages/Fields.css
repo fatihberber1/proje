@@ -1,0 +1,41 @@
+.fields-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.main-card {
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.booking-modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time-slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.time-slot-button {
+  width: 100px;
+  text-align: center;
+}
+
+.time-slot-button.selected {
+  background-color: green;
+  color: white;
+}
+
+.time-slot-button.booked {
+  background-color: red;
+  color: white;
+}

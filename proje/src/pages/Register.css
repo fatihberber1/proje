@@ -1,0 +1,36 @@
+body {
+  background-color: #f0f2f5;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-row {
+  width: 100%;
+}
+
+.register-card {
+  width: 100%;
+  max-width: 600px; /* Kartın genişliğini artırdık */
+  padding: 20px; /* Kart içi boşlukları artırdık */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: white;
+  text-align: center;
+}
+
+.register-form .ant-form-item {
+  margin-bottom: 16px;
+}
+
+.register-form .ant-input,
+.register-form .ant-input-password,
+.register-form .ant-select-selector {
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+}

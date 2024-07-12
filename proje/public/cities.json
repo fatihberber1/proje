@@ -1,0 +1,13 @@
+{
+    "Istanbul": ["Kadıköy", "Beşiktaş", "Üsküdar"],
+    "Ankara": ["Çankaya", "Keçiören", "Yenimahalle"],
+    "Izmir": ["Konak", "Bornova", "Karşıyaka"],
+    "Bursa": ["Osmangazi", "Yıldırım", "Nilüfer"],
+    "Adana": ["Seyhan", "Çukurova", "Yüreğir"],
+    "Gaziantep": ["Şahinbey", "Şehitkamil", "Nizip"],
+    "Konya": ["Selçuklu", "Meram", "Karatay"],
+    "Antalya": ["Muratpaşa", "Kepez", "Konyaaltı"],
+    "Kayseri": ["Melikgazi", "Kocasinan", "Talas"],
+    "Mersin": ["Mezitli", "Yenişehir", "Toroslar"]
+  }
+  

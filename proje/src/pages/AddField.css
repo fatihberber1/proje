@@ -1,0 +1,23 @@
+.add-field-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.main-card {
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.add-field-form .ant-form-item {
+  width: 100%;
+}
+
+.add-field-form .ant-select,
+.add-field-form .ant-input {
+  width: 100%;
+}

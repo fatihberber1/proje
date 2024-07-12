@@ -1,0 +1,65 @@
+.checkout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.main-card {
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.checkout-form .ant-form-item {
+  margin-bottom: 16px;
+}
+
+.checkout-form .ant-input {
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.total-price {
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+/* Sayfanın daha şık görünmesi için eklenen stiller */
+.checkout-container {
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  padding: 50px 0;
+}
+
+.main-card {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+}
+
+.checkout-form .ant-form-item label {
+  font-weight: bold;
+  color: #333;
+}
+
+.checkout-form .ant-input:focus,
+.checkout-form .ant-input-focused {
+  border-color: #40a9ff;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+  font-size: 16px;
+  height: 40px;
+}
+
+.ant-btn-primary:hover {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}

@@ -1,0 +1,25 @@
+body {
+  background-color: #f0f2f5;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.register-row {
+  width: 100%;
+}
+
+.ant-form-item {
+  width: 300px; /* Kutucukların genişliğini ayarlamak için */
+  margin-bottom: 16px;
+}
+
+.ant-input,
+.ant-input-password {
+  width: 100%;
+}

@@ -1,0 +1,36 @@
+/* src/pages/Home.css */
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.main-card {
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.booking-form {
+  width: 100%;
+}
+
+.booking-form .ant-form-item {
+  width: 100%;
+}
+
+.booking-form .ant-picker,
+.booking-form .ant-select {
+  width: 100%;
+}
+
+.booking-form .ant-btn {
+  width: 100%;
+  margin-top: 20px;
+}
